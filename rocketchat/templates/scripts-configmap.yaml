@@ -17,7 +17,8 @@ data:
       "4.2",
       "4.4",
       "5.0",
-      "6.0"
+      "6.0",
+      "7.0"
     ];
     // [0]=mongosh path, [1]=mongosh path, [2]=connection string, [3]=script path, [4]=new tag
     const newVersion = process.argv[4].split('.').splice(0, 2).join('.');
